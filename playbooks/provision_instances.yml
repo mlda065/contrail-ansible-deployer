@@ -36,6 +36,6 @@
   roles:
   - kvm
   vars_files:
-  - "{{ hostvars['localhost'].config_file }}"
+  - "{{ config_file }}"
   tags:
   - kvm
